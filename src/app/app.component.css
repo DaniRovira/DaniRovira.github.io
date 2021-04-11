@@ -1,0 +1,11 @@
+.modalimg {
+    width: 95%;
+    display: block;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 3%;
+}
+
+.modaltype {
+    text-align: center;
+}
