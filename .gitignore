@@ -9,6 +9,10 @@
 
 # dependencies
 /node_modules
+/scully
+
+#scully config
+scully.FirebasePractiquesProject.config.ts
 
 # profiling files
 chrome-profiler-events*.json

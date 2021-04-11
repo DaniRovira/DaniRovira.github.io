@@ -18,6 +18,7 @@ import { PublicComponent } from './pages/public/public.component';
 import { PrivatComponent } from './pages/privat/privat.component';
 import { HeaderComponent } from './pages/header/header.component';
 import { FooterComponent } from './pages/footer/footer.component';
+import { ScullyLibModule } from '@scullyio/ng-lib';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { FooterComponent } from './pages/footer/footer.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    AngularFireModule.initializeApp(environment.firebase)
+    AngularFireModule.initializeApp(environment.firebase),
+    ScullyLibModule
   ],
   providers: [],
   bootstrap: [AppComponent]
